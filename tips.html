@@ -13,21 +13,24 @@
 
     <header>
       <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+        <div class="container">
+          <div class="navbar-header">
+          <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button> <a href="index.html" class="navbar-brand">Nightingale</a>
         </div>
 
-        <div class="collapse navbar-collapse" id="mynavbar">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">Services</a></li>
+            <li class="active"><a href="index.html">Services</a></li>
             <li><a href="tips.html">Tips and Tricks</a></li>
             <li><a href="directory.html">Vendor Directory</a></li>
           </ul>
         </div>
+      </div>
       </nav>
 
       <h1 class="text-capitalize">Tips and Tricks: <br>
@@ -41,11 +44,11 @@
       <br>
 
       <div id='general' class='tips'>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <img class="img-rounded img-responsive" src='Images/general-category.jpg'>
           <button type="button" class="btn btn-primary btn-lg active btn-block">General</button>
         </div>
-        <div class="jumbotron col-sm-9">
+        <div class="jumbotron col-sm-8">
           <ul class="list-unstyled">
             <li class='important'>Engage organisations that support a good cause</li>
             <li>The food, the flowers, the rings, the clothes--when you're planning a wedding, there are a lot of investments being made. Besides supporting local vendors, try supporting those that support a good cause themselves. For example, you can hire <a href="directory.html">social enterprises</a> to help with your wedding needs - this helps in providing jobs for the disadvantaged, too. Additionally, you can also grab your entourage and have a volunteer day! Be it in place for your bridal shower or bachelorette party, you can turn your pre-wedding events into chances to help others.</li>
@@ -60,11 +63,11 @@
       </div>
 
       <div id='flowers' class='tips'>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <img class="img-rounded img-responsive" src='Images/flowers-category.jpg'>
           <button type="button" class="btn btn-primary btn-lg active btn-block">Flowers</button>
         </div>
-        <div class="jumbotron col-sm-9">
+        <div class="jumbotron col-sm-8">
           <ul class="list-unstyled">
             <li class='important'>Order seasonal and local flowers</li>
             <li>If flowers are a must, order ones that are in season and local. Potted plants for centerpieces, especially perennials, can be replanted and enjoyed for many seasons. Also check out the farmer's markets in your area. Many sell locally produced seasonal flowers. If they don't, it's worth a phone call anyway. It's likely that they know all the organic farms in the area, and may be able to refer you to a farmer who specializes in flowers.</li>
@@ -76,11 +79,11 @@
       </div>
 
       <div id='food' class='tips'>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <img class="img-rounded img-responsive" src='Images/food-category.jpg'>
           <button type="button" class="btn btn-primary btn-lg active btn-block">Food</button>
         </div>
-        <div class="jumbotron col-sm-9">
+        <div class="jumbotron col-sm-8">
           <ul class="list-unstyled">
             <li class='important'>Eat locally grown produce or find dish alternatives</li>
             <li>Organic foods are great but might be out of the price range for some wedding; there are always other ways to not add environmental insult to injury. Select caterers and vendors that work with local farms to source their food (same for booze). Think about dish alternatives, lamb and beef have the worst footprints so chicken might be your best option. Cheese also has a large footprint because it comes from cows, so perhaps focus on a veggie platter at cocktail hour. And also try to stick to fruits and vegetables that are local and in season. If you have a winter wedding, root vegetables are most appropriate, if you live inland far from the sea focus on serving freshwater fish instead. Hiring the right vendor that is willing to work with you to create a fabulous menu both in taste and environmentalism is key.</li>
@@ -92,11 +95,11 @@
       </div>
 
       <div id='dress' class='tips'>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <img class="img-rounded img-responsive" src='Images/dress-category.jpg'>
           <button type="button" class="btn btn-primary btn-lg active btn-block">Wedding Dress</button>
         </div>
-        <div class="jumbotron col-sm-9">
+        <div class="jumbotron col-sm-8">
           <ul class="list-unstyled">
             <li class='important'>Ethically sourced wedding dresses</li>
             <li>It is no secret that the wedding dress industry is chalk full of stunning gowns that will please most any bride. The choices are endless. But at what expense, or whose? Thanks to fast fashion there are distributors and retailers with the resources to create bridal gowns that keep up with the trends of every season, but the manufacturing morals are an ugly sight to behold. To avoid sewing into a designer who relies on unsafe working environments and paying deplorable wages to their employees, make the choice to select your wedding dress from a mindful designer whose vision is to design gorgeous gowns while doing their part to positively impact the world.</li>
@@ -111,21 +114,21 @@
       </div>
 
       <div class="row text-center">
-        <div id='generalcat' class="col-sm-3">
+        <div id='generalcat' class="category col-sm-2 col-xs-4">
           <img class="img-rounded img-responsive" src='Images/general-category.jpg'>
           <button type="button" class="btn btn-primary btn-lg active btn-block">General</button>
         </div>
-        <div id='flowerscat' class="col-sm-3">
+        <div id='flowerscat' class="category col-sm-2 col-xs-4">
           <img class="img-rounded img-responsive" src='Images/flowers-category.jpg'>
           <button type="button" class="btn btn-primary btn-lg active btn-block">Flowers</button>
         </div>
-        <div id='foodcat' class="col-sm-3">
+        <div id='foodcat' class="category col-sm-2 col-xs-4">
           <img class="img-rounded img-responsive" src='Images/food-category.jpg'>
           <button type="button" class="btn btn-primary btn-lg active btn-block">Food</button>
         </div>
-        <div id='dresscat' class="col-sm-3">
-          <img class="img-rounded img-responsive" src='Images/dress-category.jpg'>
-          <button type="button" class="btn btn-primary btn-lg active btn-block">Wedding Dress</button>
+        <div id='jewellerycat' class="category col-sm-2 col-xs-4">
+          <img class="img-rounded img-responsive" src='Images/jewellery-category.jpg'>
+          <button type="button" class="btn btn-primary btn-lg active btn-block">Jewellery</button>
         </div>
 
 
@@ -136,6 +139,7 @@
     </div>
 
     <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/tips.js"></script>
 
   </body>
