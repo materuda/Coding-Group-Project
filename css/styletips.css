@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-image: url('https://static1.squarespace.com/static/55c1ada8e4b0d26a2ec4b8e8/55e00fafe4b009afc9ab08e4/55e00fb9e4b0c1952c7c22a3/1447799174465/Wendy_Jono-0166.jpg');
+  background-image: url("https://static1.squarespace.com/static/55c1ada8e4b0d26a2ec4b8e8/55e00fafe4b009afc9ab08e4/55e00fb9e4b0c1952c7c22a3/1447799174465/Wendy_Jono-0166.jpg");
   background-size: cover;
   max-width: auto;
   text-align: center;
