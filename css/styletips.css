@@ -3,6 +3,7 @@ body {
   text-align: justify;
   max-width: 1200px;
   margin: auto;
+  font-family: helvetica;
 }
 
 header {
@@ -27,6 +28,11 @@ header {
 h1 {
   text-align: center;
   padding: 90px 0px 300px 0px;
+  font-weight: bold;
+}
+
+h4 {
+  padding: 10px 0px 0px 0px;
 }
 
 .btn {
@@ -34,7 +40,7 @@ h1 {
 }
 
 .important {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
 }
 
