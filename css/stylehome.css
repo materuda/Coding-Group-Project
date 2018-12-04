@@ -1,3 +1,37 @@
+
+body {
+  text-align: justify;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background-image: url('http://biltmore.s3.amazonaws.com/1058/russell-wedding-couple.jpg');
+  background-size: cover;
+  max-width: auto;
+  text-align: center;
+  color: black;
+}
+
+.navbar {
+  max-width: 1170px;
+  margin: auto;
+}
+
 h1 {
-  color: red;
+  text-align: center;
+  padding: 90px 0px 300px 0px;
+}
+
+.btn {
+  font-size: 16px;
+}
+
+.important {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.jumbotron {
+  padding: 30px;
 }
