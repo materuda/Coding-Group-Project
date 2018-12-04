@@ -16,6 +16,12 @@ header {
 .navbar {
   max-width: 1170px;
   margin: auto;
+  background-color: black;
+}
+
+#logo {
+  max-width: 400px;
+  max-height: 50px;
 }
 
 h1 {
