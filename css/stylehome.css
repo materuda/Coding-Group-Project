@@ -3,6 +3,7 @@ body {
   text-align: justify;
   max-width: 1200px;
   margin: auto;
+  font-family: helvetica;
 }
 
 header {
@@ -16,22 +17,23 @@ header {
 .navbar {
   max-width: 1170px;
   margin: auto;
+  background-color: black;
+}
+
+#logo {
+  max-width: 400px;
+  max-height: 50px;
+  margin-left: 10px;
 }
 
 h1 {
   text-align: center;
-  padding: 90px 0px 300px 0px;
-}
-
-.btn {
-  font-size: 16px;
-}
-
-.important {
-  font-size: 16px;
+  padding: 110px 0px 280px 0px;
   font-weight: bold;
 }
 
-.jumbotron {
-  padding: 30px;
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 29px;
 }
