@@ -23,6 +23,7 @@ header {
 #logo {
   max-width: 400px;
   max-height: 50px;
+  margin-left: 10px;
 }
 
 h1 {
